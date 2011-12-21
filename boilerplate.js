@@ -35,6 +35,7 @@
       opts = args[0] || opts;
     }
     
+    // Merge the options passed in into the default global options for our plugin.
     opts = $.extend({}, $.fn[pluginName].options, opts);
     
     // Execute the plugin against each dom element in the jQuery selection.
