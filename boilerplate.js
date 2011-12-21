@@ -67,7 +67,7 @@
   //   $.fn.pluginName.options = { key: 'newValue' };
   
   $.fn[pluginName].options = {
-    key: 'value'
+    
   };
   
   // The main functions used by our plugin. Within these functions, "this" refers to the 
