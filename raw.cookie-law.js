@@ -18,7 +18,7 @@
       return unescape(document.cookie.replace(new RegExp("(?:^|.*;\\s*)" + escape(key).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*((?:[^;](?!;))*[^;]?).*"), "$1"));  
     },
 
-    // set cookie balue by key
+    // set cookie value by key
     // optional:
     // - end: number (ms to expiry), string (GMT expiry date), or date object
     // - path: defaults to current path
