@@ -65,6 +65,11 @@
           $link      = $('<a/>'),
           $button    = $('<a/>');
 
+      // allow setting the target, eg _blank
+      if (options.target) {
+        $link.attr('target', options.target);
+      }
+
       // text message to display with (optional) link to a policy document
       $inner.text((options.siteName || 'This site') + ' places cookies on your computer to help make this website better by tracking visits.');
       if (options.policyUrl) {
