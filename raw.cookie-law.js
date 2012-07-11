@@ -92,7 +92,8 @@
         'right': 0,
         '-webkit-box-shadow': '0 0 6px black',
         '-moz-box-shadow': '0 0 6px black',
-        'box-shadow': '0 0 6px black'
+        'box-shadow': '0 0 6px black',
+        'z-index': 100
       });
 
       // css for the inner element
