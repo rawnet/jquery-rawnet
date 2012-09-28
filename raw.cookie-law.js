@@ -53,6 +53,13 @@
   // Cookie notice
   // =============
 
+  // Usage (all options are optional!)
+  // $.rawnet.cookieLaw({
+  //   siteName: 'My Site',                                   // default: "This site"
+  //   policyUrl: 'http://www.mysite.com/privacy-policy.pdf', // default: none
+  //   target: '_blank'                                       // default: none
+  // });
+
   $.rawnet.cookieLaw = function(options) {
     // pass if the cookie is already present
     if (!$.rawnet.cookies.exists('ok_with_cookies')) {
